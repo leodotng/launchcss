@@ -1,0 +1,26 @@
+body {
+  background-color: #1D365D;
+  font-size: 150%;
+  font-family: 'Open Sans', sans-serif;
+  align-self: center;
+}
+.txtcolor { color: #FFFFFF;
+}
+
+.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Aligner-item {
+  max-width: 50%;
+}
+
+.Aligner-item--top {
+  align-self: flex-start;
+}
+
+.Aligner-item--bottom {
+  align-self: flex-end;
+}
